@@ -1,70 +1,32 @@
-# Proyecto de CRUD de Películas - FastAPI
+Proyecto de Inventario con Python y FastAPI
+Este es el README del proyecto de inventario desarrollado en Python utilizando el framework FastAPI. El objetivo principal de este proyecto es proporcionar una solución para la gestión de inventario de una empresa, que incluye productos, suministros y proveedores.
 
-<img src="img/programate-academy.png" alt="Logo Programate">
+Requisitos
+Python 3.7 o superior
+FastAPI
+SQLAlchemy
 
-## Descripción
+Funcionalidades
+El proyecto de inventario proporciona las siguientes funcionalidades:
 
-Este proyecto es un ejemplo de una API RESTful desarrollada con FastAPI que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en un modelo de películas. Está diseñado con un enfoque académico para que los aprendices de programación backend puedan utilizarlo como punto de partida y comenzar a trabajar sobre él.
+Gestión de productos:
 
-## Funcionalidades
+Crear un nuevo producto
+Obtener detalles de un producto
+Actualizar información de un producto
+Eliminar un producto
+Listar todos los productos
+Gestión de suministros:
 
-- Obtener todas las películas disponibles
-- Obtener una película por su ID
-- Crear una nueva película
-- Actualizar una película existente
-- Eliminar una película
+Crear un nuevo suministro
+Obtener detalles de un suministro
+Actualizar información de un suministro
+Eliminar un suministro
+Listar todos los suministros
+Gestión de proveedores:
 
-## Tecnologías utilizadas
-
-- Python
-- FastAPI
-- Pydantic
-
-## Instalación
-
-1. Clona este repositorio en tu máquina local:
-
-git clone git@github.com:JSand89/my-movie-app-c9.git
-
-
-2. Navega al directorio del proyecto:
-
-cd my-movie-app-c9
-
-3. Tu o uno de tus companeros debe cambiar el origen del repositorio 
-
-git remote -v
-
-git remote remove origin
-
-git remote add origin <nueva_url_del_repositorio>
-
-4. Ahora, tus compañeros deben clonar tu repositorio y tú debes darles permiso para editarlo
-
-Desde el repositorio en GitHub, ve a "Settings" y luego a la sección de "Collaborators" para agregarlos. Esto tiene como objetivo permitirles realizar cambios. No te preocupes, realizaremos este proceso en clase."
-
-5. Instala las dependencias necesarias:
-
-pip install -r requirements.txt
-
-
-## Uso
-
-1. Inicia la aplicación:
-
-uvicorn main:app --reload
-
-
-2. Accede a la documentación de la API en tu navegador:
-
-http://localhost:8000/docs
-
-
-3. Prueba las diferentes rutas disponibles para realizar operaciones CRUD en las películas.
-
-
-## Contacto
-
-Si tienes alguna pregunta o sugerencia o quieres el workbook para desarrollar este proyecto, no dudes en contactarme en [jsanchez@educamas.com.co](jsanchez@educamas.com.co).
-
-
+Crear un nuevo proveedor
+Obtener detalles de un proveedor
+Actualizar información de un proveedor
+Eliminar un proveedor
+Listar todos los proveedores
